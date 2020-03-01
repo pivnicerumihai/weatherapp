@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Background-Download-Free.jpg");
+  font-family: 'Karla', cursive;
+  color:white;
+}
+
+.header {
+
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  width: 30%;
+  font-size: 30px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color:white;
+}
+
+
+.container{
+  text-align:center;
+  width:70%;
+  height:70vh;
+  margin-top:10%;
+ display:flex;
+ flex-flow:column
+}
+
+.box{
+   
+  font-size:28px
+}
+
+img{
+  width:130px
+}
+
+.city{
+  font-size: 50px;
+  font-weight: 700;
+}
